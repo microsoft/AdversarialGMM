@@ -71,7 +71,7 @@ steps:
 - task: corygehr.air-autoassess.uploadScanResults.uploadScanResults@1
   displayName: 'Upload Scan Results for Analysis'
   inputs:
-    areaPathParent: 'vasy'
+    areaPathParent: 'AdversarialGMM'
     areaPathChild: 'BuildScans'
     uploadUrl: 'https://airbuildscan.azurewebsites.net/api/Upload'
   env:

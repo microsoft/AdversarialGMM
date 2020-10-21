@@ -34,7 +34,7 @@ steps:
 
 - task: CredScan@2
   inputs:
-    toolMajorVersion: 'V2'
+    toolMajorVersion: 'V1'
     outputFormat: 'sarif'
 
 - task: ComponentGovernanceComponentDetection@0
